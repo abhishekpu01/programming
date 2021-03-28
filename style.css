@@ -1,0 +1,75 @@
+.color:hover{
+  color:cadetblue !important;
+  transition:1s ease;
+}
+.color{
+    color:black !important;
+    font-family: 'Lato', sans-serif;
+}
+.brand-name{
+    color:cadetblue !important;
+    font-family: 'Dela Gothic One', cursive;
+}
+.image{
+    height:4.3vh !important;
+    width:4.3vh !important;
+    display:none !important;
+}
+.insta{
+    display:none;
+    color:#bc2a8d; 
+}
+.insta:hover, .insta:active{
+      -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    color:#bc2a8d; 
+   }
+@media only screen and (max-width:991.5px) {
+   .brand-name{
+       display:none;
+   }
+  
+   .image{
+       display:inline-block !important;
+   }
+   .brand-image{
+       margin:auto !important;
+   }
+   .insta{
+       display:inline-block;
+   }
+   .list{
+       display:flex !important;
+       flex-direction:column !important;
+       align-items:center !important;
+   }
+   .header-column{
+       display:flex;
+       justify-content:center;
+   }
+   .header-column-2{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      margin-top:20px;
+   }
+  }
+.heading{
+    font-family: 'Dela Gothic One', cursive; 
+}
+.para{
+    font-family: 'Lato', sans-serif;
+    font-weight:bolder !important;
+    color:cadetblue;
+}
+.navbar-toggler{
+    border:none !important;
+}
+
+
+
+
